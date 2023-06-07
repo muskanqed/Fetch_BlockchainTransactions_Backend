@@ -1,0 +1,34 @@
+{
+  "name": "blockchaintransactions_backend",
+  "version": "0.0.1",
+  "description": "This project allows users to fetch etherium transaction based on their wallet address",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muskanqed/Fetch_BlockchainTransactions_Backend.git"
+  },
+  "keywords": [
+    "Blockchain",
+    "Etherium",
+    "BlockchainTransactions"
+  ],
+  "author": "muskanqed@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muskanqed/Fetch_BlockchainTransactions_Backend/issues"
+  },
+  "homepage": "https://github.com/muskanqed/Fetch_BlockchainTransactions_Backend#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "ethers": "^6.4.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22"
+  }
+}
